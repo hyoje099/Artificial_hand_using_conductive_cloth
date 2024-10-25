@@ -1,6 +1,3 @@
-Sure! Here’s a sample README.md for your Arduino project that uses servo motors and pressure sensors.
-
-```markdown
 # Servo Motor Control with Pressure Sensors
 
 This project controls five servo motors based on readings from pressure sensors. When the conductive fabric is pressed, the corresponding servo motor moves to a specified angle and then returns to its original position.
@@ -16,10 +13,6 @@ This project controls five servo motors based on readings from pressure sensors.
 
 ## Circuit Diagram
 
-```
-[Connect the servo motors to digital pins 9 to 13]
-[Connect the pressure sensors to analog pins A0 to A4]
-```
 
 ## Code Overview
 
@@ -49,10 +42,6 @@ The code initializes five servo motors and reads values from five pressure senso
 ### Example Output
 
 When a sensor is activated, the following messages will appear in the serial monitor:
-```
-Servo 0 moved to angle: 30
-Servo 0 returned to angle: 0
-```
 
 ## Requirements
 
@@ -67,6 +56,3 @@ This project is open-source. Feel free to modify and use the code for your own p
 ## Contact
 
 For questions or feedback, feel free to reach out.
-```
-
-You can adjust the sections based on any additional details you want to include!
